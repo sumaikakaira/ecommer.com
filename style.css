@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assett/summi3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 45px;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+.logo{
+    color: white;
+    font-size:30px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color:red;
+    transition: .8s;
+}
+.btn{
+    background-color: rgb(187, 22, 49);
+    color: wheat;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 40px;
+    transition: transform.4s;
+}
+.btn:hover{
+    color: blue;
+    transition: .8s;
+
+}
+.content{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    right: 20%;
+    bottom: 20px;
+    float: inline-start;
+    transform: translateY(-50%);
+}
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 55px;
+}
+h4{
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding:14px 130px 12px 13px;
+    border:2px solid red;
+    outline: navy;
+    border-radius: 35px;
+
+
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: red;
+    color: rgb(175, 161, 154);
+    box-shadow: 0px 6px 5px rgb(187, 160, 175);
+    margin-left: 25px;
+    
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.about img{
+    height:auto;
+    width:430px;
+}
+.about-text{
+    width:500px;
+}
+.main{
+    width:1130px;
+    max-width: 90%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+}
+.about-text h1{
+    color:rgb(230, 163, 163);
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color:rgb(201, 154, 154);
+    letter-spacing: 2px;
+    font-size: 23px;
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+.p{
+    color:#fcfc;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 43px;
+}
+button{
+    background-color: rgb(182, 33, 83);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 20px;
+}
+button:hover{
+    background-color: transparent;
+    border: 3px solid purple;
+    cursor: pointer;
+}
+
+.service{
+    background: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1120px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.card{
+    height:365px;
+    width:335px;
+    padding:20px 35px;
+    background: #101010;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color:rgb(171, 7, 67);
+}
+h5{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: rgb(182, 33, 83);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 20px;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 3px solid purple;
+    cursor: pointer;
+}
+
+.contact-me{
+    width:100%;
+    height:290px;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color:white;
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.contact-me .button-two{
+    background-color: rgb(182, 33, 83);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-top: 20px;
+}
+.contact-me .button-two:hover{
+
+    background-color: transparent;
+    border: 3px solid purple;
+    cursor: pointer;
+  }
+  
+   
+@media only screen and (min-width: 900px){
+    *{
+        justify-content: center;
+    
+    }
+ }
